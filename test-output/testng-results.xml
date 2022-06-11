@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-11T03:32:31Z" name="Default suite" finished-at="2022-06-11T03:32:45Z" duration-ms="13881">
+    <groups>
+    </groups>
+    <test started-at="2022-06-11T03:32:31Z" name="Default test" finished-at="2022-06-11T03:32:45Z" duration-ms="13881">
+      <class name="flipkart.validateEditFunction">
+        <test-method signature="initialize()[pri:0, instance:flipkart.validateEditFunction@76ba13c]" started-at="2022-06-11T09:02:31Z" name="initialize" finished-at="2022-06-11T09:02:45Z" duration-ms="13868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- flipkart.validateEditFunction -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+         <listener class-name="flipkart.listeners"/>
+         <listener class-name="resources.ExtentReportNG"/>
+ </listeners>
+
+ <test name="Validating Login Page">
+   <classes>
+     <class name="flipkart.validateLoginPage"/>
+   </classes>
+ </test>
+ 
+  <test name="Validating Edit Function">
+   <classes>
+     <class name="flipkart.validateEditFunction"/>
+   </classes>
+ </test>
+ 
+  <test name="Validating Search Function">
+   <classes>
+     <class name="flipkart.validateSearchFunction"/>
+   </classes>
+ </test><!-- Test -->
+ 
+</suite> <!-- Suite -->
+
